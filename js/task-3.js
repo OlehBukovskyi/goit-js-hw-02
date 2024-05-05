@@ -1,8 +1,8 @@
 function checkForSpam(message) {
     const verifyingMessage = message.toLowerCase();
     if (verifyingMessage.includes("spam") || verifyingMessage.includes("sale")) {
-        return "true"
-    } else { return "false"};
+        return true
+    } else { return false};
 
      /* return verifyingMessage.includes("spam") || verifyingMessage.includes("sale");
 
